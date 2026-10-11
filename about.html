@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Me</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background-color: #000;
+      color: #fff;
+      line-height: 1.6;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #121212;
+      padding: 1rem 2rem;
+      border-bottom: 1px solid #444;
+    }
+
+    header h2 {
+      font-size: 24px;
+      color: #9909db;
+    }
+
+    nav a {
+      color: white;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #9909db;
+    }
+
+    main {
+      padding: 50px 20px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .container-wrapper {
+      display: flex;
+      gap: 30px;
+      flex-wrap: wrap;
+      max-width: 1200px;
+      width: 100%;
+      justify-content: center;
+    }
+
+    .container {
+      background-color: #1a1a1a;
+      padding: 20px;
+      border-radius: 15px;
+      border: 2px solid #9909db;
+      box-shadow: 0 0 20px rgba(153, 9, 219, 0.3);
+    }
+
+    .about-container {
+      flex: 1;
+      min-width: 250px;
+      max-width: 350px;
+    }
+
+    .skills-container {
+      flex: 2;
+      min-width: 300px;
+    }
+
+    .container h1,
+    .container h2 {
+      font-size: 1.8rem;
+      color: #9909db;
+      margin-bottom: 15px;
+      text-align: center;
+    }
+
+    .container p {
+      font-size: 1rem;
+      margin-bottom: 10px;
+    }
+
+    .container ul {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+
+    .container ul li {
+      margin-bottom: 8px;
+    }
+
+    @media screen and (max-width: 768px) {
+      .container-wrapper {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .container {
+        width: 100%;
+      }
+
+      .container h1,
+      .container h2 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+   
+  <header>
+    <h2>Tejashree's Portfolio</h2>
+    <nav>
+      <a href="http://127.0.0.1:5500/portfolio.html">Home</a>
+      <a href="http://127.0.0.1:5500/about.html">About Me</a>
+      <a href="http://127.0.0.1:5500/project.html">Projects</a>
+      <a href="http://127.0.0.1:5500/certificate.html">Certificates</a>
+      <a href="http://127.0.0.1:5500/contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <br><br><br><br><br>
+  <main>
+    <div class="container-wrapper">
+      <div class="container about-container">
+        <h1>About Me</h1>
+        <p>I'm <strong>Tejashree</strong>, a student of Software Engineering at MIT AOE.</p>
+        <p>I love innovation, design, and learning new tech skills.</p>
+      </div>
+
+      <div class="container skills-container">
+        <h2>Skills & Interests</h2>
+        <ul>
+          <li>Languages: C, C++, Python (Basics), Linux</li>
+          <li>Editing Tools: Canva, CapCut, InShot</li>
+          <li>Soft Skills: Communication, Creativity, Teamwork</li>
+          <li>Hobbies: Drawing, Video Editing, Exploring Tech</li>
+          <li>Interests: IoT, Mobile App UI, Tech Event Participation</li>
+        </ul>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title> Projects</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background-color: #000;
+      color: #fff;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #121212;
+      padding: 1rem 2rem;
+      border-bottom: 1px solid #444;
+    }
+
+    header h2 {
+      font-size: 24px;
+      color: #9909db;
+    }
+
+    nav a {
+      color: white;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #9909db;
+    }
+
+    .projects-section {
+      padding: 50px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .projects-title {
+      text-align: center;
+      font-size: 2.5rem;
+      color: #9909db;
+      margin-bottom: 40px;
+    }
+
+    .project-row {
+      display: flex;
+      justify-content: space-between;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+
+    .project-card {
+      background-color: #1a1a1a;
+      border: 2px solid #9909db;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(153, 9, 219, 0.3);
+      padding: 20px;
+      flex: 1;
+      min-width: 280px;
+      max-width: 48%;
+      text-align: center;
+    }
+
+    .project-card img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 15px;
+      border: 2px solid #9909db;
+    }
+
+    .project-card h3 {
+      color: #9909db;
+      margin-bottom: 10px;
+    }
+
+    .project-card p {
+      font-size: 1rem;
+    }
+
+    @media screen and (max-width: 768px) {
+      .project-row {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .project-card {
+        max-width: 100%;
+      }
+
+      .projects-title {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h2>Tejashree's Portfolio</h2>
+    <nav>
+      <a href="http://127.0.0.1:5500/portfolio.html">Home</a>
+      <a href="http://127.0.0.1:5500/about.html">About Me</a>
+      <a href="http://127.0.0.1:5500/project.html">Projects</a>
+      <a href="http://127.0.0.1:5500/certificate.html">Certificates</a>
+      <a href="http://127.0.0.1:5500/contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="projects-section">
+    <h1 class="projects-title">My Projects</h1>
+    <div class="project-row">
+      <div class="project-card">
+        <img src="DT project 1.jpg" alt="DT project" />
+        <h3>Design Thinking Project </h3>
+        <p>I made a Educational Games for migrated student who lives in labour camp and didn't get chance to attend the school.This games will help them to clear their basic concepts.</p>
+      </div>
+      <div class="project-card">
+        <img src="project2.jpg" alt="Signal Processing Project" />
+        <h3>weaving machine</h3>
+        <p>I made weaving machine by wooden to explain blind girls sudents in Jagruti school to teach them physics concept.</p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

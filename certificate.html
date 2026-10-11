@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title> Certificates</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: #000;
+      color: #fff;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    header {
+      background-color: #121212;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #444;
+    }
+
+    header h2 {
+      color: #9909db;
+    }
+
+    nav a {
+      color: white;
+      margin-left: 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #9909db;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 40px auto;
+      background-color: #1a1a1a;
+      padding: 30px;
+      border-radius: 15px;
+      border: 2px solid #9909db;
+      box-shadow: 0 0 20px rgba(153, 9, 219, 0.3);
+    }
+
+    .container h1 {
+      text-align: center;
+      color: #9909db;
+      margin-bottom: 30px;
+    }
+
+    .certificate-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .certificate-item {
+      background-color: #222;
+      padding: 20px;
+      border-radius: 10px;
+      border-left: 4px solid #9909db;
+      width: 30%;
+      box-sizing: border-box;
+    }
+
+    .certificate-item h3 {
+      color: #ff99ff;
+      margin-bottom: 10px;
+    }
+
+    .certificate-item p {
+      margin-bottom: 10px;
+    }
+
+    .view-btn {
+      padding: 8px 16px;
+      background-color: #9909db;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      display: inline-block;
+    }
+
+    .view-btn:hover {
+      background-color: #7a07b1;
+    }
+
+    @media (max-width: 768px) {
+      .certificate-item {
+        width: 100%; /* Full width on smaller screens */
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h2>Tejashree's Portfolio</h2>
+    <nav>
+      <a href="http://127.0.0.1:5500/portfolio.html">Home</a>
+      <a href="http://127.0.0.1:5500/about.html">About Me</a>
+      <a href="http://127.0.0.1:5500/project.html">Projects</a>
+      <a href="http://127.0.0.1:5500/certificate.html">Certificates</a>
+      <a href="http://127.0.0.1:5500/contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h1>My Certificates</h1>
+    <div class="certificate-list">
+
+      <!-- Certificate 1 -->
+      <div class="certificate-item">
+        <h3>Python Basics</h3>
+        <p>Completed an introductory course in Python programming.</p>
+        <a href="http://127.0.0.1:5500/certificate6.html" class="view-btn" target="_blank">View Certificate</a>
+      </div>
+
+      <!-- Certificate 2 -->
+      <div class="certificate-item">
+        <h3>C Language</h3>
+        <p>Certified in C programming with foundational skills in writing, debugging, and optimizing C code.</p>
+        <a href="http://127.0.0.1:5500/certificate4.html" class="view-btn" target="_blank">View Certificate</a>
+      </div>
+
+      <!-- Certificate 3 -->
+      <div class="certificate-item">
+        <h3>Cloud Computing</h3>
+        <p>Certified in Cloud Computing with foundational knowledge of cloud services, deployment models, and infrastructure management.</p>
+        <a href="http://127.0.0.1:5500/certificate5.html" class="view-btn" target="_blank">View Certificate</a>
+      </div>
+
+      <!-- Certificate 4 -->
+      <div class="certificate-item">
+        <h3>Linux</h3>
+        <p>Certified in Linux with core skills in command-line operations, file systems, and user management..</p>
+        <a href="http://127.0.0.1:5500/certificate3.html" class="view-btn" target="_blank">View Certificate</a>
+      </div>
+
+      <!-- Certificate 5 -->
+      <div class="certificate-item">
+        <h3>Linux</h3>
+        <p>Demonstrates foundational knowledge of Linux system administration and shell scripting..</p>
+        <a href="http://127.0.0.1:5500/certificate2.html" class="view-btn" target="_blank">View Certificate</a>
+      </div>
+
+      <!-- Certificate 6 -->
+      <div class="certificate-item">
+        <h3>Linux</h3>
+        <p>Proficient in using Linux for system configuration, networking, and process management..</p>
+        <a href="http://127.0.0.1:5500/certificate1.html" class="view-btn" target="_blank">View Certificate</a>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
